@@ -15,7 +15,7 @@ int main()
     {
         if (arr[i] % 2 == 0)
         {
-            sum += i;
+            sum +=arr[i];
             temp = sum;
         }
     }
