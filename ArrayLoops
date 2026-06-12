@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("How many elements?");
+    int n;
+    scanf("%d", &n);
+    int arr[n];
+   int start= 0, end = n-1;
+    printf("Enter the elements");
+    while (start<=end)
+    {
+        scanf("%d", &arr[start]);
+        start++;
+    }
+    printf("The elements are : ");
+    for(start = 0; start <=end; start++){
+        printf("%d\n",arr[start]);
+    }
+   
+   
+    return 0;
+}
